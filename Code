@@ -1,0 +1,20 @@
+
+// Connect your output device at pin D1 of nodemcu//
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+char auth[] = "Your Blynk Auth Token";
+
+char ssid[] = "wifiname";
+char pass[] = "passwordhere";
+
+void setup()
+{
+  Serial.begin(9600);
+  Blynk.begin(auth, ssid, pass); 
+}
+
+void loop()
+{
+  Blynk.run();
+}
