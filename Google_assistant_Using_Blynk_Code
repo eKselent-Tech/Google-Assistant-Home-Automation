@@ -1,4 +1,5 @@
-
+//You Need to Download Blynk App Old Version , Install it, Login Create Project & Add Button Setup Blynk App. //
+// Please Check Setup Blynk App video file //
 // Connect your output device at pin D1 of nodemcu//
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
